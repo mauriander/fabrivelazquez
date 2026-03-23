@@ -1,0 +1,8 @@
+export { default as HeroSection } from './HeroSection'
+export { default as ManifestoSection } from './ManifestoSection'
+export { default as FeaturedSection } from './FeaturedSection'
+export { default as TopicsSection } from './TopicsSection'
+export { default as JourneySection } from './JourneySection'
+export { default as NewsletterSection } from './NewsletterSection'
+export { default as ContactSection } from './ContactSection'
+export { default as FooterSection } from './FooterSection'

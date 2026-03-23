@@ -1,0 +1,21 @@
+:root {
+  --color-bg: #f3efe8;
+  --color-bg-soft: #ece6dc;
+  --color-paper: #fcfaf6;
+  --color-text: #1d1813;
+  --color-muted: #5f5448;
+  --color-border: #d8cec1;
+  --color-accent: #8a3f27;
+  --color-accent-hover: #733421;
+
+  --font-sans: 'Manrope', 'Avenir Next', 'Segoe UI', sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+
+  --container-max: 72rem;
+  --header-height: 4.5rem;
+  --section-space: clamp(4rem, 9vw, 7rem);
+}
