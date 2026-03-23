@@ -1,26 +1,52 @@
-import { Cpu, BriefcaseBusiness, Fingerprint } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading'
-import TopicCard from '../components/TopicCard'
+import ParallaxVisual from '../components/ParallaxVisual'
+import ThemeCard from '../components/ThemeCard'
 import SectionWrapper from '../layout/SectionWrapper'
-import { focusTopics } from '../content/siteContent'
-
-const icons = [Cpu, BriefcaseBusiness, Fingerprint]
+import {
+  thinkingAreas,
+  thinkingAreasSection,
+  sectionVisuals,
+} from '../content/siteContent'
 
 function TopicsSection() {
   return (
-    <SectionWrapper id="temas" labelledBy="temas-title">
-        <SectionHeading
-          eyebrow="Temas"
-          title="Áreas de exploración"
-          description="Ejes curatoriales para ordenar el contenido por conversación y no por formato."
-          id="temas-title"
-        />
+    <SectionWrapper
+      id="temas"
+      labelledBy="temas-title"
+      className="themes-section"
+      innerClassName="themes-layout"
+    >
+      <SectionHeading
+        eyebrow={thinkingAreasSection.eyebrow}
+        title={thinkingAreasSection.title}
+        description={thinkingAreasSection.description}
+        id="temas-title"
+      />
 
-        <div className="topics-grid">
-          {focusTopics.map((topic, index) => (
-            <TopicCard key={topic.title} icon={icons[index]} {...topic} />
-          ))}
-        </div>
+      <p className="section-lead themes-intro">{thinkingAreasSection.intro}</p>
+
+      <div className="bleed-viewport">
+        <ParallaxVisual
+          className="themes-visual"
+          mediaClassName="themes-visual-media"
+          imageSrc={sectionVisuals.themes.src}
+          imageAlt={sectionVisuals.themes.alt}
+          imagePosition="center center"
+          overlayClassName="parallax-visual-overlay--soft"
+          kicker="Mapa conceptual"
+          title="Cinco temas, una misma búsqueda"
+          description="Entender el presente sin simplificarlo."
+          ariaLabel="Bloque visual de la sección de temas"
+          speed={18}
+          reverse
+        />
+      </div>
+
+      <div className="themes-grid">
+        {thinkingAreas.map((area) => (
+          <ThemeCard key={area.title} {...area} />
+        ))}
+      </div>
     </SectionWrapper>
   )
 }
