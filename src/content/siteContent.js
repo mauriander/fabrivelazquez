@@ -1,295 +1,250 @@
 export const navItems = [
-  { href: '#inicio', label: 'Inicio' },
-  { href: '#manifiesto', label: 'Manifiesto' },
-  { href: '#escritos', label: 'Escritos' },
-  { href: '#temas', label: 'Temas' },
-  { href: '#trayectoria', label: 'Trayectoria' },
-  { href: '#newsletter', label: 'Newsletter' },
+  { href: '#servicios', label: 'Servicios' },
+  { href: '#proyectos', label: 'Proyectos' },
+  { href: '#blog', label: 'Blog' },
+  { href: '#metodo', label: 'Método' },
   { href: '#contacto', label: 'Contacto' },
 ]
 
 export const heroContent = {
-  eyebrow: 'Escritor · Tecnología · Sociedad · Trabajo · Identidad',
-  name: 'Fabri Velázquez',
-  headline:
-    'Escribo para entender qué nos pasa cuando cambian la tecnología, el trabajo y la forma en que nos contamos.',
+  eyebrow: 'Disponible para nuevos proyectos - cupos limitados',
+  headline: 'Consultor en comunicación y marketing para negocios que quieren',
+  highlight: 'dejar de improvisar.',
   description:
-    'Una plataforma editorial personal en construcción, hecha para pensar con calma, conectar ideas y abrir conversaciones con profundidad.',
+    'Ayudo a profesionales, comercios y pymes a ordenar su comunicación, optimizar sus procesos y convertir buenas ideas en negocios que crecen.',
+  emphasis: 'Un método de 3 meses',
+  closing:
+    'de compromiso total para que te sientas orgulloso de tu marca.',
   primaryCta: {
-    href: '#escritos',
-    label: 'Leer escritos',
+    href: '#contacto',
+    label: 'Pongamos en marcha tu negocio',
   },
   secondaryCta: {
     href: '#contacto',
-    label: 'Contactar',
+    label: 'Agendemos una sesión inicial',
   },
-  scrollCue: {
-    href: '#manifiesto',
-    label: 'Deslizá para continuar',
-  },
+  stats: [
+    { value: '+15', label: 'años entre comunicación, gestión y estrategia' },
+    { value: '3 meses', label: 'para ordenar prioridades y ejecutar' },
+    { value: '30 min', label: 'para detectar el primer problema real' },
+  ],
 }
 
-export const sectionVisuals = {
-  heroBack: {
-    src: 'https://images.pexels.com/photos/7909010/pexels-photo-7909010.jpeg?auto=compress&cs=tinysrgb&w=2200&dpr=1',
-    alt: 'Reflejo urbano en vidrio, asociado a tecnologia y vida cotidiana.',
-    source: 'https://www.pexels.com/photo/7909010/',
-  },
-  heroFront: {
-    src: 'https://images.pexels.com/photos/19345556/pexels-photo-19345556.jpeg?auto=compress&cs=tinysrgb&w=2200&dpr=1',
-    alt: 'Persona frente a una ventana en un entorno de ciudad, en tono reflexivo.',
-    source: 'https://www.pexels.com/photo/19345556/',
-  },
-  manifesto: {
-    src: 'https://images.pexels.com/photos/29440531/pexels-photo-29440531.jpeg?auto=compress&cs=tinysrgb&w=2000&dpr=1',
-    alt: 'Cuaderno y laptop en una escena de escritura editorial.',
-    source: 'https://www.pexels.com/photo/29440531/',
-  },
-  featured: {
-    src: 'https://images.pexels.com/photos/19773688/pexels-photo-19773688.jpeg?auto=compress&cs=tinysrgb&w=2200&dpr=1',
-    alt: 'Escena urbana con reflejos, sugerente para una curaduria de escritos.',
-    source: 'https://www.pexels.com/photo/19773688/',
-  },
-  themes: {
-    src: 'https://images.pexels.com/photos/16018114/pexels-photo-16018114.jpeg?auto=compress&cs=tinysrgb&w=2200&dpr=1',
-    alt: 'Reflejos de personas y ciudad, representando diversidad de temas.',
-    source: 'https://www.pexels.com/photo/16018114/',
-  },
-  journey: {
-    src: 'https://images.pexels.com/photos/7670739/pexels-photo-7670739.jpeg?auto=compress&cs=tinysrgb&w=2200&dpr=1',
-    alt: 'Escritorio de trabajo y notas, como simbolo de proceso y evolucion.',
-    source: 'https://www.pexels.com/photo/7670739/',
-  },
-  closing: {
-    src: 'https://images.pexels.com/photos/28921752/pexels-photo-28921752.jpeg?auto=compress&cs=tinysrgb&w=2000&dpr=1',
-    alt: 'Cafe y cuaderno en una composicion minima para el cierre de la pagina.',
-    source: 'https://www.pexels.com/photo/28921752/',
-  },
-}
-
-export const manifestoContent = {
-  eyebrow: 'Manifiesto',
-  title: 'Escribir para orientarme, compartir para construir sentido.',
+export const aboutSection = {
+  eyebrow: 'Enfoque',
+  title: 'Comunicación no es solo redes sociales.',
+  lead:
+    'Es cómo pensás, organizás y hablás sobre tu negocio por dentro y hacia afuera.',
   description:
-    'Este no es un resumen de carrera. Es una práctica pública de pensamiento para atravesar cambios sin perder humanidad.',
-}
-
-export const manifestoFragments = [
-  {
-    label: 'Tecnología',
-    text: 'Me interesa menos la novedad y más sus consecuencias: cómo cada herramienta altera nuestra forma de decidir, trabajar y vincularnos.',
-  },
-  {
-    label: 'Trabajo',
-    text: 'Pienso el trabajo como oficio y conversación. Un lugar donde la claridad, el criterio y la palabra también son formas de producción.',
-  },
-  {
-    label: 'Evolución personal',
-    text: 'No busco una identidad fija. Busco una versión honesta de mí mismo que pueda cambiar sin traicionarse.',
-  },
-]
-
-export const manifestoClosing =
-  'Este sitio existe para dejar huella del proceso: preguntas abiertas, ideas en movimiento y aprendizajes que todavía se están escribiendo.'
-
-export const featuredWritingsSection = {
-  eyebrow: 'Selección editorial',
-  title: 'Escritos para pensar el presente con más contexto',
-  description:
-    'Una curaduría de publicaciones donde se cruzan tecnología, trabajo, identidad y observaciones de lo cotidiano.',
-  intro:
-    'No son “posts de vitrina”. Son piezas para abrir preguntas, sostener conversaciones y construir una voz propia en público.',
-}
-
-export const featuredWritings = [
-  {
-    category: 'Tecnología y sociedad',
-    title: 'Cuando la tecnología acelera, la conversación se vuelve más lenta',
-    dateLabel: '12 marzo 2026',
-    dateTime: '2026-03-12',
-    abstract:
-      'Una lectura sobre cómo la velocidad digital impacta vínculos, criterio y toma de decisiones en la vida diaria.',
-    href: 'https://substack.com/@fabrivelzquez',
-    external: true,
-  },
-  {
-    category: 'Trabajo y futuro',
-    title: 'El futuro del trabajo también se escribe en tono humano',
-    dateLabel: '26 febrero 2026',
-    dateTime: '2026-02-26',
-    abstract:
-      'Reflexiones sobre oficio, autonomía y colaboración en un escenario laboral que cambia más rápido que nuestras certezas.',
-    href: 'https://es.linkedin.com/pulse/las-tres-dimensiones-de-la-comunicaci%C3%B3n-fabri-vel%C3%A1zquez',
-    external: true,
-  },
-  {
-    category: 'Marca personal',
-    title: 'Marca personal sin personaje: identidad en construcción permanente',
-    dateLabel: '09 febrero 2026',
-    dateTime: '2026-02-09',
-    abstract:
-      'Una mirada sobre autenticidad, exposición y coherencia para construir una presencia profesional con profundidad.',
-    href: 'https://es.linkedin.com/pulse/p%C3%A1gina-web-propia-o-curr%C3%ADculum-vitae-permanente-fabri-vel%C3%A1zquez',
-    external: true,
-  },
-  {
-    category: 'Reflexiones cotidianas',
-    title: 'Notas de un día común: lo cotidiano también merece teoría',
-    dateLabel: '21 enero 2026',
-    dateTime: '2026-01-21',
-    abstract:
-      'Apuntes breves sobre trabajo, atención y sentido en escenas simples que suelen pasar desapercibidas.',
-    href: 'https://www.linkedin.com/in/fabri-vel%C3%A1zquez/',
-    external: true,
-  },
-]
-
-export const thinkingAreasSection = {
-  eyebrow: 'Universo temático',
-  title: 'Cartografía de ideas',
-  description:
-    'Cinco conversaciones que organizan esta voz editorial: tecnología, trabajo, identidad, cultura y sentido.',
-  intro:
-    'Cada tema funciona como una puerta de entrada. La intención no es cerrar respuestas, sino hacer mejores preguntas.',
-}
-
-export const thinkingAreas = [
-  {
-    title: 'Tecnología y sociedad',
-    abstract:
-      'Exploro cómo lo digital modifica decisiones colectivas, vínculos y formas de pertenecer.',
-    guideQuestion: 'Pregunta guía: ¿qué costo humano tiene cada avance técnico?',
-    tags: ['Cultura digital', 'Impacto social'],
-    featured: true,
-  },
-  {
-    title: 'Trabajo y futuro',
-    abstract:
-      'Pienso el trabajo más allá del rendimiento: tiempo, propósito y modelos de colaboración sostenibles.',
-    guideQuestion: 'Pregunta guía: ¿cómo trabajar mejor sin vaciarnos en el intento?',
-    tags: ['Oficio', 'Futuro laboral'],
-  },
-  {
-    title: 'Marca personal',
-    abstract:
-      'Entiendo la marca personal como coherencia narrativa entre lo que uno piensa, hace y comunica.',
-    guideQuestion: 'Pregunta guía: ¿cómo construir reputación sin fabricar personaje?',
-    tags: ['Identidad', 'Comunicación'],
-  },
-  {
-    title: 'Cultura cotidiana',
-    abstract:
-      'Registro escenas mínimas de lo diario para leer tendencias profundas en hábitos y lenguaje.',
-    guideQuestion: 'Pregunta guía: ¿qué revela una rutina sobre el momento histórico?',
-    tags: ['Observación', 'Vida diaria'],
-  },
-  {
-    title: 'Reflexiones existenciales',
-    abstract:
-      'Escribo sobre sentido, cambio y contradicción para sostener una conversación honesta con uno mismo.',
-    guideQuestion: 'Pregunta guía: ¿cómo evolucionar sin perder identidad?',
-    tags: ['Sentido', 'Evolución personal'],
-  },
-]
-
-export const journeySection = {
-  eyebrow: 'Recorrido',
-  title: 'Una trayectoria en evolución constante',
-  description:
-    'Más que una secuencia de cargos, este recorrido muestra búsquedas, decisiones y cambios de mirada.',
-  intro:
-    'Cada etapa abrió una pregunta nueva. La continuidad no está en el puesto, sino en el modo de pensar, aprender y comunicar.',
-}
-
-export const journey = [
-  {
-    period: '2017 — 2019',
-    stage: 'Exploración inicial',
-    title: 'Empezar a escribir en público',
-    summary:
-      'Los primeros textos aparecieron como una forma de ordenar ideas sobre comunicación, creatividad y trabajo cotidiano.',
-    reflection:
-      'Aprendizaje clave: publicar no era mostrar certezas, sino entrenar criterio en voz alta.',
-  },
-  {
-    period: '2020 — 2021',
-    stage: 'Cambio de enfoque',
-    title: 'De la vitrina profesional al proceso personal',
-    summary:
-      'La pregunta por la marca personal dejó de ser estética y pasó a ser narrativa: qué historia quiero sostener en el tiempo.',
-    reflection:
-      'Aprendizaje clave: una web personal vale cuando refleja evolución, no cuando congela una versión fija.',
-  },
-  {
-    period: '2022 — 2023',
-    stage: 'Profundización',
-    title: 'Tecnología, trabajo e identidad como conversación central',
-    summary:
-      'Los temas comenzaron a conectarse entre sí: productividad, cultura digital y sentido personal ya no aparecían por separado.',
-    reflection:
-      'Aprendizaje clave: la profundidad surge cuando se cruza lo profesional con lo humano.',
-  },
-  {
-    period: '2024 — Hoy',
-    stage: 'Consolidación',
-    title: 'Construir una voz editorial propia',
-    summary:
-      'La práctica actual combina escritura, curaduría de ideas y diálogo con comunidades interesadas en pensar con más contexto.',
-    reflection:
-      'Aprendizaje clave: crecer no es hablar más fuerte, es hablar con más precisión y más escucha.',
-  },
-]
-
-export const newsletterContent = {
-  eyebrow: 'Newsletter',
-  title: 'Bitácora imperfecta',
-  description:
-    'Un correo breve, humano y sin ruido cada vez que aparece una idea que vale la pena compartir.',
-  supportingText:
-    'Tecnología, trabajo, identidad y notas de lo cotidiano para pensar con más contexto.',
+    'Trabajo con dueños, profesionales y equipos chicos que tienen potencial, pero necesitan claridad: una propuesta entendible, procesos menos improvisados y una presencia digital que acompañe objetivos comerciales concretos.',
   cta: {
-    label: 'Suscribirme a Bitácora imperfecta',
-    href: 'https://substack.com/@fabrivelzquez',
+    href: '#contacto',
+    label: 'Quiero ordenar mi comunicación',
   },
-  note: 'Sin promesas de frecuencia. Solo cuando haya algo honesto para decir.',
+  image: {
+    src: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    alt: 'Equipo revisando una estrategia de comunicación sobre una mesa de trabajo.',
+  },
+}
+
+export const servicesSection = {
+  eyebrow: 'Servicios',
+  title: 'Cuatro frentes para que tu negocio se entienda mejor.',
+  description:
+    'Cada servicio puede abordarse por separado, pero el mayor impacto aparece cuando estrategia, marca, contenidos y web trabajan en la misma dirección.',
+}
+
+export const services = [
+  {
+    title: 'Estrategia de comunicación',
+    description:
+      'Diagnóstico de mensajes, canales, públicos y prioridades para dejar de comunicar por intuición.',
+    icon: 'TrendingUp',
+  },
+  {
+    title: 'Identidad y narrativa de marca',
+    description:
+      'Orden visual y verbal para que tu propuesta sea reconocible, confiable y fácil de explicar.',
+    icon: 'Palette',
+  },
+  {
+    title: 'Contenido para captar clientes',
+    description:
+      'Ideas, formatos y calendario editorial para educar, generar intención y abrir conversaciones comerciales.',
+    icon: 'Video',
+  },
+  {
+    title: 'Web y embudo de contacto',
+    description:
+      'Landing, portfolio o sitio institucional pensado para convertir visitas en reuniones iniciales.',
+    icon: 'Globe',
+  },
+]
+
+export const projectsSection = {
+  eyebrow: 'Proyectos',
+  title: 'Casos modelo para empezar a cargar portfolio real.',
+  description:
+    'Estos bloques quedan preparados como placeholders editables hasta reemplazarlos por trabajos concretos, métricas y materiales del cliente.',
+}
+
+export const projects = [
+  {
+    title: 'Comunicación para pyme industrial',
+    category: 'Diagnóstico + marca',
+    description:
+      'Reordenamiento de propuesta, mensajes comerciales y piezas clave para una empresa con servicios difíciles de explicar.',
+    image:
+      'https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1400',
+  },
+  {
+    title: 'Lanzamiento para emprendimiento turístico',
+    category: 'Contenido + web',
+    description:
+      'Estructura de campaña, relato de marca y página de conversión para transformar interés en consultas calificadas.',
+    image:
+      'https://images.pexels.com/photos/3182834/pexels-photo-3182834.jpeg?auto=compress&cs=tinysrgb&w=1400',
+  },
+  {
+    title: 'Portfolio profesional ampliado',
+    category: 'CV expandido',
+    description:
+      'Sitio personal con historia, habilidades, servicios y pruebas de trabajo para centralizar una presencia dispersa.',
+    image:
+      'https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=1400',
+  },
+]
+
+export const blogSection = {
+  eyebrow: 'Blog empresarial',
+  title: 'Contenido para negocios que necesitan tomar mejores decisiones.',
+  description:
+    'El newsletter personal vive en Substack. Esta sección queda enfocada en educación comercial, pymes, comunicación y marketing aplicable.',
+  cta: {
+    href: 'https://substack.com/@fabrivelzquez',
+    label: 'Leer textos personales en Substack',
+  },
+}
+
+export const blogPosts = [
+  {
+    category: 'Estrategia',
+    title: '3 señales de que tu negocio está comunicando desde la improvisación',
+    dateLabel: 'Abril 2026',
+    dateTime: '2026-04',
+    abstract:
+      'Cómo detectar mensajes confusos, canales mal elegidos y esfuerzos que no empujan ninguna conversación comercial.',
+    href: '#contacto',
+  },
+  {
+    category: 'PyMES',
+    title: 'Por qué no todo problema de ventas se arregla publicando más',
+    dateLabel: 'Abril 2026',
+    dateTime: '2026-04',
+    abstract:
+      'Antes de producir más contenido conviene revisar propuesta, proceso de contacto y confianza percibida.',
+    href: '#contacto',
+  },
+  {
+    category: 'Marca',
+    title: 'Qué tiene que decir una web para que alguien pida una reunión',
+    dateLabel: 'Abril 2026',
+    dateTime: '2026-04',
+    abstract:
+      'Una guía breve para transformar una página institucional en un activo comercial claro y accionable.',
+    href: '#contacto',
+  },
+]
+
+export const methodSection = {
+  eyebrow: 'Método',
+  title: 'Un proceso de 3 meses para pasar de intuición a sistema.',
+  description:
+    'La primera reunión sirve para entender el problema. A partir de ahí se arma una auditoría inicial y un presupuesto personalizado.',
+}
+
+export const methodSteps = [
+  {
+    number: '01',
+    title: 'Identificar el punto de partida',
+    description:
+      'Auditoría de comunicación interna y externa, procesos, canales, públicos y mensajes clave.',
+  },
+  {
+    number: '02',
+    title: 'Definir objetivos y prioridades',
+    description:
+      'Separar lo urgente de lo importante: qué se corrige ahora, qué se construye después y cómo se mide.',
+  },
+  {
+    number: '03',
+    title: 'Alinear marca, contenido y web',
+    description:
+      'Convertir la estrategia en piezas concretas para que la propuesta sea clara, consistente y accionable.',
+  },
+  {
+    number: '04',
+    title: 'Lanzar, medir y ajustar',
+    description:
+      'Activar el sistema, revisar señales reales y ajustar el camino sin volver a la improvisación.',
+  },
+]
+
+export const trustSection = {
+  eyebrow: 'Criterio',
+  title: 'El objetivo no es verse ocupado. Es construir un negocio más claro.',
+  points: [
+    'Comunicación conectada con objetivos comerciales.',
+    'Procesos simples para equipos chicos y dueños con poco tiempo.',
+    'Contenido pensado para generar intención, no solo presencia.',
+  ],
 }
 
 export const contactSection = {
   eyebrow: 'Contacto',
-  title: 'Sigamos la conversación',
+  title: 'Empecemos con una charla de 30 minutos.',
   description:
-    'Si querés conversar, colaborar o invitarme a un proyecto editorial, estos son los mejores canales.',
+    'Contame dónde está trabada tu comunicación. Si hay encaje, armamos una auditoría inicial y un presupuesto a medida.',
+  email: 'gfabrivelazquez@gmail.com',
+  primaryCta: {
+    href: 'mailto:gfabrivelazquez@gmail.com?subject=Sesion%20inicial%20-%20Consultoria%20Fabri%20Velazquez',
+    label: 'Agendar sesión inicial',
+  },
+  secondaryCta: {
+    href: 'mailto:gfabrivelazquez@gmail.com?subject=Auditoria%20de%20comunicacion',
+    label: 'Pedir auditoría y presupuesto',
+  },
 }
 
-export const contactChannels = [
+export const faqs = [
   {
-    channel: 'LinkedIn',
-    value: 'fabri-velázquez',
-    description: 'Para conversación profesional, ideas y colaboraciones.',
-    href: 'https://www.linkedin.com/in/fabri-vel%C3%A1zquez/',
-    external: true,
+    question: '¿La primera reunión tiene costo?',
+    answer:
+      'La sesión inicial sirve para conocernos, entender el problema y definir si tiene sentido avanzar con una auditoría o propuesta concreta.',
   },
   {
-    channel: 'Email',
-    value: 'hola@fabrivelazquez.com',
-    description: 'Para mensajes directos y propuestas concretas.',
-    href: 'mailto:hola@fabrivelazquez.com',
-    external: false,
+    question: '¿El proceso siempre dura 3 meses?',
+    answer:
+      'Es la duración recomendada para ordenar estrategia, ejecutar piezas y medir señales. Si el problema es más acotado, se puede presupuestar una intervención menor.',
   },
   {
-    channel: 'Substack',
-    value: 'Bitácora imperfecta',
-    description: 'Para leer publicaciones y seguir el recorrido editorial.',
-    href: 'https://substack.com/@fabrivelzquez',
-    external: true,
+    question: '¿Trabajás con negocios sin equipo de marketing?',
+    answer:
+      'Sí. La metodología está pensada para profesionales, comercios, emprendimientos y pymes que necesitan claridad sin montar una estructura grande.',
   },
 ]
 
+export const socialLinks = [
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/fabri-vel%C3%A1zquez/' },
+  { label: 'Substack', href: 'https://substack.com/@fabrivelzquez' },
+  { label: 'Email', href: 'mailto:gfabrivelazquez@gmail.com' },
+]
+
 export const footerContent = {
-  note: 'Fabri Velázquez · Bitácora imperfecta · Imágenes: Pexels (free to use)',
+  note: 'Fabri Velázquez - Comunicación, marketing y estrategia para negocios que quieren crecer con claridad.',
   links: [
-    { label: 'Inicio', href: '#inicio' },
-    { label: 'Escritos', href: '#escritos' },
+    { label: 'Servicios', href: '#servicios' },
+    { label: 'Método', href: '#metodo' },
     { label: 'Contacto', href: '#contacto' },
   ],
 }

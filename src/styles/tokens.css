@@ -1,21 +1,22 @@
 :root {
-  --color-bg: #f3efe8;
-  --color-bg-soft: #ece6dc;
-  --color-paper: #fcfaf6;
-  --color-text: #1d1813;
-  --color-muted: #5f5448;
-  --color-border: #d8cec1;
-  --color-accent: #8a3f27;
-  --color-accent-hover: #733421;
+  --color-bg: #030504;
+  --color-bg-soft: #07110d;
+  --color-panel: #0d1410;
+  --color-panel-strong: #111a15;
+  --color-text: #f4f7f2;
+  --color-muted: #9ba89f;
+  --color-border: #223027;
+  --color-accent: #00c47a;
+  --color-accent-hover: #30e49e;
+  --color-warm: #ff6b4a;
 
   --font-sans: 'Manrope', 'Avenir Next', 'Segoe UI', sans-serif;
-  --font-serif: 'Fraunces', Georgia, serif;
+  --font-display: 'Space Grotesk', 'Manrope', sans-serif;
 
-  --radius-sm: 0.5rem;
-  --radius-md: 0.875rem;
-  --radius-lg: 1.25rem;
+  --radius-sm: 6px;
+  --radius-md: 8px;
 
-  --container-max: 72rem;
-  --header-height: 4.5rem;
-  --section-space: clamp(4rem, 9vw, 7rem);
+  --container-max: 76rem;
+  --header-height: 4.75rem;
+  --section-space: 6rem;
 }

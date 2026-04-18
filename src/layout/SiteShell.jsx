@@ -1,4 +1,3 @@
-import { Feather } from 'lucide-react'
 import Container from './Container'
 import { navItems } from '../content/siteContent'
 
@@ -11,9 +10,8 @@ function SiteShell({ children }) {
 
       <header className="site-header">
         <Container className="site-header-inner">
-          <a className="brand" href="#inicio" aria-label="Fabri Velázquez - Inicio">
-            <Feather size={16} strokeWidth={2} aria-hidden="true" />
-            <span>Fabri Velázquez</span>
+          <a className="brand" href="#inicio" aria-label="Velázquez - Inicio">
+            <span>Velázquez</span>
           </a>
 
           <nav className="primary-nav" aria-label="Secciones principales">
@@ -25,10 +23,16 @@ function SiteShell({ children }) {
               ))}
             </ul>
           </nav>
+
+          <a className="header-cta" href="#contacto">
+            Reunión inicial
+          </a>
         </Container>
       </header>
 
-      <main id="main-content">{children}</main>
+      <main id="main-content" tabIndex="-1">
+        {children}
+      </main>
     </div>
   )
 }
